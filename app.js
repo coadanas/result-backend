@@ -8,7 +8,7 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.json());
 
 var corsOptions = {
-  origin: 'https://thekrishnainstitute.onrender.com',
+  origin: 'https://krishnainstitute.onrender.com',
   optionsSuccessStatus: 200
 }
 app.use(cors(corsOptions))
